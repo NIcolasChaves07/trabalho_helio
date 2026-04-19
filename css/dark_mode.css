@@ -1,0 +1,160 @@
+:root {
+    --bg-light: #0d1117;
+    --text-dark: #e6edf3;
+    --gray-border: #30363d;
+}
+
+/* BODY */
+body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #161b22;
+    border-right: 1px solid var(--gray-border);
+}
+
+.user-profile {
+    background-color: #0d1117;
+    border-bottom: 1px solid var(--gray-border);
+}
+
+.user-photo {
+    background-color: #21262d;
+    color: #8b949e;
+}
+
+.user-name {
+    color: var(--ifpr-green);
+}
+
+.user-role {
+    color: #8b949e;
+}
+
+/* MENU */
+.nav-item {
+    color: var(--text-dark);
+}
+
+.nav-item:hover {
+    background-color: #21262d;
+}
+
+.nav-item.active {
+    background-color: #1a2e22;
+}
+
+/* HEADER */
+header {
+    background-color: #161b22;
+    color: white;
+}
+
+/* CARDS */
+.card {
+    background: #161b22;
+    color: var(--text-dark);
+    box-shadow: none;
+}
+
+.card-yellow {
+    background: #2a2405;
+}
+
+.card-red {
+    background: #2a0d0d;
+}
+
+/* INPUTS */
+input, select {
+    background-color: #0d1117;
+    color: var(--text-dark);
+    border: 1px solid var(--gray-border);
+}
+
+/* TABLE */
+table {
+    color: var(--text-dark);
+}
+
+th {
+    background: #21262d;
+}
+
+td {
+    border-bottom: 1px solid var(--gray-border);
+}
+
+/* BADGES */
+.badge-success {
+    background: #1e3a2a;
+    color: #3fb950;
+}
+
+.badge-error {
+    background: #3a1e1e;
+    color: #ff7b72;
+}
+
+.badge-warn {
+    background: #3a3200;
+    color: #f2cc60;
+}
+
+/* ALERTAS */
+.alert-penalty {
+    background-color: #2a0d0d;
+    border: 1px solid #5c1e1e;
+}
+
+.alert-box {
+    background-color: #161b22;
+}
+
+.alert-error {
+    background-color: #2a0d0d;
+    border-color: #5c1e1e;
+    color: #ff7b72;
+}
+
+/* CHART */
+.bar {
+    background: var(--ifpr-green);
+}
+
+/* CALENDÁRIO */
+.calendar-header {
+    border-bottom: 1px solid var(--gray-border);
+}
+
+.day {
+    color: var(--text-dark);
+}
+
+.day:hover {
+    background-color: #21262d;
+    cursor: pointer;
+}
+
+.day.today {
+    background: var(--ifpr-green);
+    color: white;
+}
+
+/* NOTIFICAÇÕES */
+.notice-item {
+    border-bottom: 1px solid var(--gray-border);
+}
+
+.notice-date {
+    color: #8b949e;
+}
+
+/* BARCODE */
+.barcode-box {
+    background: #0d1117;
+    border: 1px dashed #444;
+}
